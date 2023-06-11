@@ -11,7 +11,7 @@ Classes
 **1. Account.java**
    The Account class represents a bank account. It holds information about the account number and balance.
 
-   Constructors
+   - Constructors
    Account(int accountNumber): Constructs an Account object with the specified account number. The initial balance is set to 0.
    Methods
    int getAccountNumber(): Returns the account number of the account.
@@ -23,9 +23,9 @@ Classes
 **2. Card.java**
    The Card class represents an ATM card (checking or debit). It holds information about the card ID, associated account ID, and card type.
 
-   Constructors
+   - Constructors
    Card(int cardId, int accountId, String cardType): Constructs a Card object with the specified card ID, account ID, and card type.
-   Methods
+   - Methods
    int getCardId(): Returns the card ID of the card.
    int getAccountId(): Returns the account ID associated with the card.
    String getCardType(): Returns the type of the card.
@@ -33,9 +33,9 @@ Classes
 **3. User.java**
    The User class represents a user of the ATM. It contains the user's personal information such as name, address, phone number, age, date of birth, and PIN.
 
-   Constructors
+   - Constructors
    User(String name, String address, String phoneNumber, int age, String dateOfBirth, int pin): Constructs a User object with the specified      personal information.
-   Methods
+   - Methods
    String getName(): Retrieves the name of the user.
    String getAddress(): Retrieves the address of the user.
    String getPhoneNumber(): Retrieves the phone number of the user.
@@ -46,9 +46,9 @@ Classes
 **4. Bank.java**
    The Bank class represents the ATM banking system that oversees and handles operations such as user registration, account opening, and card issuance.
 
-   Constructors
+   - Constructors
    Bank(): Constructs a Bank object. Initializes the data structures and counters.
-   Methods
+   - Methods
    int registerUser(String name, String address, String phoneNumber, int age, String dateOfBirth, int pin): Registers a new user in the bank.
    int openAccount(int userId): Opens a new account for a user.
    int issueCard(int accountId, String cardType): Issues a new card for an account.
@@ -59,7 +59,7 @@ Classes
 **5. Main.java**
    The Main class is the entry point of the Bank Application. It allows users to register, open accounts, and issue cards.
 
-   Methods
+   - Methods
    main(String[] args): The main method of the application where the user interaction and flow is implemented.
 
 
