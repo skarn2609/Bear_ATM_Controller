@@ -78,7 +78,7 @@ To run the ATM Application, follow these steps:
    ./app.sh
 
 Usage
-Upon running the application, you will be prompted to enter the necessary information to register a user, open an account, and issue a card. 
+Upon running the application, you will be prompted to enter the necessary information to register a user, open an account, and issue a card. Then, you will be able to do basic ATM Controller Operations such as Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw/Transfer.
 The application will display the user information, account information, and card information after the registration process.
 
-\Make sure to provide valid inputs and follow the on-screen instructions.
+Make sure to provide valid inputs and follow the on-screen instructions.
