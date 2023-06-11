@@ -2,8 +2,6 @@
 
 Bear_ATM_Controller Application
 
-
-
 The ATM Application is a simple ATM Controller that allows basic ATM Controller Operations such as Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw.
 To accomodate these operations, the controller allows new users to register a new user, open a saving/checking account associated with a user, and issue new debit/credit cards. 
 The ATM controller consists of several Java classes that interact with each other to provide the ATM functionality.
@@ -61,6 +59,8 @@ The Main class is the entry point of the Bank Application. It allows users to re
 
 Methods
 main(String[] args): The main method of the application where the user interaction and flow is implemented.
+
+
 -------------------------------------------------------------------------------------------------------------
 Getting Started
 
