@@ -1,6 +1,6 @@
 # Bear_ATM_Controller
 
-Bear_ATM_Controller Application
+Bear_ATM_Controller Application for Coding Test
 
 The ATM Application is a simple ATM Controller that allows basic ATM Controller Operations such as Insert Card => PIN number => Select Account => See Balance/Deposit/Withdraw/Transfer.
 To accomodate these operations, the controller also allows new user registration, opening a saving/checking account associated with a user, and issuing new debit/credit cards. 
