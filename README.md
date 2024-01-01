@@ -1,4 +1,4 @@
-# Bear_ATM_Controller
+# ATM Controller (베어로보틱스 코딩테스트) 
 
 Bear_ATM_Controller Application for Coding Test
 
